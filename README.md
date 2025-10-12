@@ -9,11 +9,7 @@ It implements the following models:
 - **Machine Learning:** Logistic Regression, LinearSVC  
 - **Deep Learning:** LSTM  
 
-The project includes:  
-- Preprocessing  
-- Feature extraction (TF-IDF, embeddings)  
-- Model training and evaluation  
-- Real-time sentiment prediction  
+The project has two main parts: **AI models** and **Web interface**.
 
 ---
 
@@ -31,31 +27,41 @@ Emoji handling is done using `emoji.demojize()` so the model can understand emoj
 ---
 
 ## ⚙️ Features
+
+### 🤖 AI / Model Features
 - Cleans tweets (removes URLs, mentions, and special characters)  
 - Converts emojis to text descriptions  
 - TF-IDF vectorization for ML models  
 - Train **LinearSVC** and **Logistic Regression** efficiently  
 - Train **LSTM** for deep learning sentiment classification  
-- Real-time sentiment prediction for new posts  
+
+### 🌐 Web / Django Features
+- User-friendly input form for tweets or text  
+- Upload CSV files for batch sentiment analysis  
+- Display sentiment predictions for uploaded data  
+- **Word cloud visualization** for frequent words in the dataset  
+- **Sentiment trend over time** graph  
+- Supports emojis in input  
+- Integration with pre-trained AI models  
+- Real-time results for non-technical users  
 
 ---
 
-## 📈 Usage
-1. Preprocess your dataset  
-2. Train the ML or DL models  
-3. Evaluate model performance  
-4. Predict sentiment for new tweets in real-time  
+## 💾 Saved Models
+You can download the pre-trained models here:  
+[Google Drive - Saved Models](https://drive.google.com/drive/folders/1lIGeVWsw2qdwA3TkzXVzdtwbwcJa2k-H?usp=sharing)  
 
 ---
 
-## 🔧 Technologies
-- Python  
-- scikit-learn  
-- TensorFlow / Keras  
-- Pandas, Numpy  
-- emoji library  
+## 🌐 Website
+Access the web app here:  
+[Your Website Link Here](https://example.com)  
 
 ---
 
-## 🚀 Goal
-To provide a **fast, accurate, and emoji-aware sentiment analysis tool** for social media posts.
+## 🛠️ Django Web App Setup
+
+1. **Clone the repository**  
+```bash
+git clone https://github.com/reaksmeyun/sentiment_project.git
+cd sentiment_project
