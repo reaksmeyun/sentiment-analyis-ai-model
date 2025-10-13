@@ -16,7 +16,7 @@ The project has two main parts: **AI models** and **Web interface**.
 ## 📂 Dataset
 - **Dataset:** Sentiment140 dataset (~1.6 million tweets)  
 - **Source:** [Kaggle / Sentiment140](https://www.kaggle.com/datasets/kazanova/sentiment140)
-- Rename file of dataset download to "semtiment140_analysis_dataset.csv"
+- Rename file of dataset that downloaded to "semtiment140_analysis_dataset.csv"
 - **Columns:** sentiment, id, date, query, user, text  
 
 **Sentiment mapping:**  
