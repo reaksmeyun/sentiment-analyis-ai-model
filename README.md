@@ -3,8 +3,6 @@
 ## 📌 Project Description
 **HappySad AI** is a sentiment analysis project that analyzes social media posts (tweets) to classify sentiment as **positive** or **negative**.  
 
-The project supports **emoji handling**, allowing realistic sentiment analysis for posts containing emojis.  
-
 It implements the following models:  
 - **Machine Learning:** Logistic Regression, LinearSVC  
 - **Deep Learning:** LSTM  
